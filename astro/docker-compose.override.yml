@@ -1,0 +1,8 @@
+version: "3.1"
+
+# mount the dbt directory as a volume
+services:
+  scheduler:
+    volumes:
+      - /Users/derinjtom/Documents/research/dbt:/usr/local/airflow/dbt
+  

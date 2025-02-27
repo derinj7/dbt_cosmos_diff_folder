@@ -1,0 +1,6 @@
+project:
+    name: separate-demo
+postgres:
+    port: 5444
+webserver:
+    port: 8083
